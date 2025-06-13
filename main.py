@@ -93,7 +93,7 @@ def esegui_backup_giornaliero(source_folder, backup_folder, dataUltimoBackup):
 
 if __name__ == '__main__':
     # Admin
-    admin = Amministratore(0, "Admin", "AdminAdmin", "admin", "adminadmin")
+    admin = Amministratore(0, "Admin", "AdminAdmin", "admin", "adminadmin11")
 
     app = QApplication(sys.argv)
     main_window = VistaLogin(admin)
